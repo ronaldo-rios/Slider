@@ -4,9 +4,38 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css"/>
     <title>Slider</title>
 </head>
 <body>
+    <header>
+        <div class="header">
+            <h1>STAR WARS</h1>
+        </div>
+
+        <div class="slider">
+            <div class="slider--controls">
+                <div class="slider--control" onclick="comeBack()">VOLTAR</div>
+                <div class="slider--control" onclick="next()">PRÓXIMA</div>
+            </div>
+        
+            
+            <div class="slider-width">
+                <div class="slider-item" style="background-image: url('images/star-wars.jpg')"></div>
+                <div class="slider-item" style="background-image: url('images/mandalorian.jpg')"></div>
+                <div class="slider-item" style="background-image: url('images/stormtrooper.jpg')"></div>
+                <div class="slider-item" style="background-image: url('images/darth-vader.jpg')"></div>
+                <div class="slider-item" style="background-image: url('images/yoda.jpg')"></div>
+            </div>
+        </div>
+        
+    </header>
     
+    <section>
+        <h1>Resto do site</h1>
+    </section>
+
+
+    <script src="script.js"></script>
 </body>
 </html>
